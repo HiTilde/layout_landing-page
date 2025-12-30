@@ -36,14 +36,18 @@
   }
 
   &__number {
-    display: block;
-    opacity: 0;
-    visibility: hidden;
+    display: none;
 
     color: #fff;
     font-size: 12px;
     font-weight: 700;
     transition-duration: $duration;
+
+    @include on-desktop {
+      display: block;
+      opacity: 0;
+      visibility: hidden;
+    }
   }
   &__phone-wrapper {
     display: flex;
