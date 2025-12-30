@@ -1,6 +1,10 @@
 @use '../until/mixsins.scss' as *;
 @use '../until/variable.scss' as *;
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }

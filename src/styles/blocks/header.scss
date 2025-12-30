@@ -11,6 +11,10 @@
   background-attachment: fixed;
   padding-bottom: 88px;
 
+  @media (max-width: 743px) {
+    background-image: url('../images/phone-bg.png');
+  }
+
   @include on-tablet {
     padding-bottom: 130px;
   }
